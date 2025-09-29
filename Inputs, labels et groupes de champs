@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Ma première page</title>
+  </head>
+  <body>
+    <h1>heloo i'm ayoub</h1>
+<p>Ceci est mon premier paragraphe HTML.</p>
+<img src="https://tinyurl.com/397mnxmt" alt="image exemle" width="500px">
+    <h1>Bienvenue sur ma page</h1>
+    <ul>
+      <li> first</li>
+      <li> two</li>
+      <li> three</li>
+    </ul>
+      <table border="1">
+        <tr>
+          <td>ayoub</td>
+          <td> 20</td>
+        </tr>
+        <tr>
+          <th> mohamed</th>
+          <th> 23</th>
+</tr>
+<tr>
+  <td>Samira</td>
+  <td>23</td>
+</tr>
+ </table>
+ <form action="#" method="post">
+  <fieldset>
+    <legend>Contact</legend>
+  </fieldset>
+</form>
+<label for="nom">Nom :</label>
+<input type="text" id="nom" name="nom" placeholder="Votre nom">
+
+<label for="email">E-mail :</label>
+<input type="email" id="email" name="email" placeholder="exemple@mail.com">
+<p>Genre :</p>
+<label>
+  <input type="radio" name="genre" value="homme"> Homme
+</label>
+<label>
+  <input type="radio" name="genre" value="femme"> Femme
+</label>
+
+<button type="submit">Envoyer</button>
+
+  </body>
+</html>
