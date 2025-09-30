@@ -1,52 +1,31 @@
 <!DOCTYPE html>
-<html lang="fr">
-  <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <title>Ma première page</title>
-  </head>
-  <body>
-    <h1>heloo i'm ayoub</h1>
-<p>Ceci est mon premier paragraphe HTML.</p>
-<img src="https://tinyurl.com/397mnxmt" alt="image exemle" width="500px">
-    <h1>Bienvenue sur ma page</h1>
-    <ul>
-      <li> first</li>
-      <li> two</li>
-      <li> three</li>
-    </ul>
-      <table border="1">
-        <tr>
-          <td>ayoub</td>
-          <td> 20</td>
-        </tr>
-        <tr>
-          <th> mohamed</th>
-          <th> 23</th>
-</tr>
-<tr>
-  <td>Samira</td>
-  <td>23</td>
-</tr>
- </table>
-<form action="#" method="post">
-  <fieldset>
-    <legend> contact </legend>
-  
-  <label for=" nom" >Nom:</label>
-  <input type="nom" id="nom" name="nom" placeholder="votre nom">
-  <label for=" email" >email:</label>
-  <input type="email" id="email" name="email" placeholder="votre email">
-  <p>genre:</p>
-  <label for="femme">femme</label>
-    <input type="radio" name="genre" id="femme">
-  
-  <label for="homme">homme</label>
-    <input type="radio" name="genre" id="homme">
-  
-  <button type="submit"> envoyer</button>
-</fieldset>
-</form>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main page</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Contact</legend>
 
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your name"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="example@mail.com"><br><br>
+
+            <p>Gender:</p>
+            <label>
+                <input type="radio" name="gender" value="male"> Male
+            </label>
+            <label>
+                <input type="radio" name="gender" value="female"> Female
+            </label><br><br>
+
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
 </body>
 </html>
-
