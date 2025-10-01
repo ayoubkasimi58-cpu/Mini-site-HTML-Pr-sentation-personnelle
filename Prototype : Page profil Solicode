@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form>
+    <fieldset>
+      <legend></legend>
+  <header>
+<h1><em> i'm ayoub el kasmi</em></h1>
+  </header>
+  <img src="https://shorturl.at/xPOg0" alt="photo unnavailble" width="200">
+  <h2> About me</h2>
+  <p>I'm ayoub, a learner and developer who enjoys coding and exploring creative ideas.<br> I like keeping things simple and improving a little each day.</p>  
+  <h2> info:</h2>
+
+ <ul>
+  <li>Name: ayoub</li>
+  <li>Age: 20</li>
+  <li>email: ayoubkasimi58@gmail.com</li>
+  <li>phone: 0722776148</li>
+ </ul>
+
+<h3> Skills:</h3>
+ <table border="1">
+  <tr>
+<th>Technologie</th>
+<th>Niveau</th>
+</tr>
+
+    <tr>
+      <td>html</td>
+      <td>avancé</td>
+    </tr>
+
+    <tr>
+      <td>css</td>
+      <td>intermédaire</td>
+ </tr>
+
+    <tr>
+      <td>javascript</td>
+      <td>débutant</td>
+    </tr>
+    
+ </table>
+
+ <h4> Hobbies:</h4>
+ <ul>
+  <li>Basketball</li>
+  <li>Boxing</li>
+  <li>Gaming</li>
+ </ul>
+
+ <footer>
+  <p>© 2025 Portfolio</p>
+  <a href="https://github.com/ayoubkasimi58-cpu/Mini-site-HTML-Pr-sentation-personnelle">GitHub Page</a>
+ </footer>
+ </fieldset>
+ </form>
+ 
+</body>
+</html>
